@@ -16,6 +16,6 @@ I(Input|Feature) = H(Feature) + H(Input) - H(Input, Feature);
 
 Relevant references:
 - [Formula for estimating MI](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=256F92F8B18CEF221816BF21BED2AA2A?doi=10.1.1.713.5827&rep=rep1&type=pdf)
-- [Rule for 1D Kernel Width] (https://en.wikipedia.org/wiki/Kernel_density_estimation#A_rule-of-thumb_bandwidth_estimator)
-- [Rule for 2D Kernel Width] (https://en.wikipedia.org/wiki/Multivariate_kernel_density_estimation#Rule_of_thumb)
-- [Other reference for single/joint pdf estimation] (https://pdfs.semanticscholar.org/29ac/cc5fabeabd9a567daaca379bb4073a4a2be4.pdf)
+- [Rule for 1D Kernel Width](https://en.wikipedia.org/wiki/Kernel_density_estimation#A_rule-of-thumb_bandwidth_estimator)
+- [Rule for 2D Kernel Width](https://en.wikipedia.org/wiki/Multivariate_kernel_density_estimation#Rule_of_thumb)
+- [Other reference for single/joint pdf estimation](https://pdfs.semanticscholar.org/29ac/cc5fabeabd9a567daaca379bb4073a4a2be4.pdf)
