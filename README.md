@@ -13,7 +13,7 @@ For now only 1D input are supported.
 
 The program gives as output also the three entropies H(Input), H(Feature), and H(Input, Feature). They are linked to the mutual information by the following:
 
-I(Input|Feature) = H(Feature) + H(Input) - H(Input, Feature);
+I(Input, Feature) = H(Feature) + H(Input) - H(Input, Feature);
 
 Relevant references:
 - [Formula for estimating MI](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=256F92F8B18CEF221816BF21BED2AA2A?doi=10.1.1.713.5827&rep=rep1&type=pdf)
