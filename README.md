@@ -6,12 +6,13 @@ Two files are required:
   - Input M x 1
   - Feature M x N
 
-The Input file act as reference, against which the N columns of the Feature file will be used to compute the Mutual Information.
+The Input file acts as reference, against which the N columns of the Feature file will be used to compute the Mutual Information.
 The Input and Feature file must have the same number of rows.
 
 For now only 1D input are supported.
 
-The program give as output also the three entropies H(Input), H(Feature), and H(Input, Feature). They are linked to the mutual information by the following:
+The program gives as output also the three entropies H(Input), H(Feature), and H(Input, Feature). They are linked to the mutual information by the following:
+
 I(Input|Feature) = H(Feature) + H(Input) - H(Input, Feature);
 
 Relevant references:
